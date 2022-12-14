@@ -1,0 +1,30 @@
+[2022-12-13T16:31:42.041+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: bus_pos_etl.etl_bus_loc manual__2022-12-13T16:31:40.192740+00:00 [queued]>
+[2022-12-13T16:31:42.050+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: bus_pos_etl.etl_bus_loc manual__2022-12-13T16:31:40.192740+00:00 [queued]>
+[2022-12-13T16:31:42.051+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13T16:31:42.051+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-13T16:31:42.051+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13T16:31:42.066+0000] {taskinstance.py:1304} INFO - Executing <Task(BashOperator): etl_bus_loc> on 2022-12-13 16:31:40.192740+00:00
+[2022-12-13T16:31:42.077+0000] {standard_task_runner.py:55} INFO - Started process 1102 to run task
+[2022-12-13T16:31:42.080+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'bus_pos_etl', 'etl_bus_loc', 'manual__2022-12-13T16:31:40.192740+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/test_noe_bash.py', '--cfg-path', '/tmp/tmpl_9s_02v']
+[2022-12-13T16:31:42.082+0000] {standard_task_runner.py:83} INFO - Job 20: Subtask etl_bus_loc
+[2022-12-13T16:31:42.149+0000] {task_command.py:389} INFO - Running <TaskInstance: bus_pos_etl.etl_bus_loc manual__2022-12-13T16:31:40.192740+00:00 [running]> on host ff6f332d28b5
+[2022-12-13T16:31:42.226+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=noe
+AIRFLOW_CTX_DAG_ID=bus_pos_etl
+AIRFLOW_CTX_TASK_ID=etl_bus_loc
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-13T16:31:40.192740+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-13T16:31:40.192740+00:00
+[2022-12-13T16:31:42.228+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-13T16:31:42.228+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python /opt/***/dags/etl/etl.py']
+[2022-12-13T16:31:42.244+0000] {subprocess.py:86} INFO - Output:
+[2022-12-13T16:31:48.455+0000] {subprocess.py:93} INFO - bus_pos.csv création du blob en cours
+[2022-12-13T16:31:48.456+0000] {subprocess.py:93} INFO - blob créé
+[2022-12-13T16:31:48.457+0000] {subprocess.py:93} INFO - upload du csv vers le blob en cours
+[2022-12-13T16:31:48.658+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2022-12-13T16:31:48.732+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=bus_pos_etl, task_id=etl_bus_loc, execution_date=20221213T163140, start_date=20221213T163142, end_date=20221213T163148
+[2022-12-13T16:31:48.782+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-13T16:31:48.815+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

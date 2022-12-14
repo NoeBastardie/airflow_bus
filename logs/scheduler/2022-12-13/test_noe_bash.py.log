@@ -1,0 +1,920 @@
+[2022-12-13T15:00:01.986+0000] {processor.py:153} INFO - Started process (PID=22065) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:00:02.025+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:00:02.059+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:00:02.058+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:00:09.695+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:00:09.688+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:00:09.696+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:00:09.790+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 8.392 seconds
+[2022-12-13T15:00:41.197+0000] {processor.py:153} INFO - Started process (PID=22134) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:00:41.201+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:00:41.205+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:00:41.204+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:00:42.432+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:00:42.430+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:00:42.433+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:00:42.469+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.279 seconds
+[2022-12-13T15:01:13.599+0000] {processor.py:153} INFO - Started process (PID=22192) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:01:13.607+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:01:13.615+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:01:13.613+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:01:15.724+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:01:15.719+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:01:15.725+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:01:15.773+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 2.190 seconds
+[2022-12-13T15:01:46.174+0000] {processor.py:153} INFO - Started process (PID=22255) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:01:46.178+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:01:46.181+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:01:46.180+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:01:50.896+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:01:50.888+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:01:50.897+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:01:50.980+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 4.824 seconds
+[2022-12-13T15:02:22.480+0000] {processor.py:153} INFO - Started process (PID=22317) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:02:22.493+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:02:22.494+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:02:22.494+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:02:23.565+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:02:23.563+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:02:23.566+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:02:23.935+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.460 seconds
+[2022-12-13T15:02:55.457+0000] {processor.py:153} INFO - Started process (PID=22381) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:02:55.459+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:02:55.460+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:02:55.460+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:02:56.612+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:02:56.610+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:02:56.613+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:02:58.488+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 3.035 seconds
+[2022-12-13T15:03:29.403+0000] {processor.py:153} INFO - Started process (PID=22445) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:03:29.404+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:03:29.408+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:03:29.407+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:03:30.493+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:03:30.491+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:03:30.494+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:03:32.913+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 3.515 seconds
+[2022-12-13T15:04:04.913+0000] {processor.py:153} INFO - Started process (PID=22509) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:04:04.920+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:04:04.924+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:04:04.923+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:04:06.206+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:04:06.204+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:04:06.206+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:04:06.241+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.346 seconds
+[2022-12-13T15:04:36.923+0000] {processor.py:153} INFO - Started process (PID=22573) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:04:36.927+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:04:36.928+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:04:36.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:04:38.121+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:04:38.119+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:04:38.121+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:04:38.150+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.234 seconds
+[2022-12-13T15:05:09.484+0000] {processor.py:153} INFO - Started process (PID=22631) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:05:09.485+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:05:09.488+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:05:09.487+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:05:10.351+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:05:10.349+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:05:10.351+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:05:10.390+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.911 seconds
+[2022-12-13T15:05:41.193+0000] {processor.py:153} INFO - Started process (PID=22695) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:05:41.207+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:05:41.208+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:05:41.208+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:05:42.038+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:05:42.036+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:05:42.039+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:05:42.382+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.194 seconds
+[2022-12-13T15:06:14.832+0000] {processor.py:153} INFO - Started process (PID=22759) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:06:14.833+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:06:14.834+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:06:14.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:06:15.775+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:06:15.774+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:06:15.776+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:06:15.813+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.988 seconds
+[2022-12-13T15:06:46.825+0000] {processor.py:153} INFO - Started process (PID=22816) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:06:46.831+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:06:46.833+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:06:46.833+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:06:47.724+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:06:47.721+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:06:47.725+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:06:47.758+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.955 seconds
+[2022-12-13T15:07:18.335+0000] {processor.py:153} INFO - Started process (PID=22880) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:07:18.337+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:07:18.340+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:07:18.340+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:07:19.100+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:07:19.099+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:07:19.100+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:07:19.898+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.569 seconds
+[2022-12-13T15:07:50.325+0000] {processor.py:153} INFO - Started process (PID=22944) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:07:50.325+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:07:50.326+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:07:50.326+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:07:51.148+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:07:51.146+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:07:51.149+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:07:51.172+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.851 seconds
+[2022-12-13T15:08:21.398+0000] {processor.py:153} INFO - Started process (PID=23001) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:08:21.408+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:08:21.415+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:08:21.414+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:08:22.466+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:08:22.465+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:08:22.466+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:08:22.496+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.115 seconds
+[2022-12-13T15:08:53.529+0000] {processor.py:153} INFO - Started process (PID=23065) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:08:53.530+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:08:53.530+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:08:53.530+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:08:54.420+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:08:54.418+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:08:54.420+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:08:55.580+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 2.056 seconds
+[2022-12-13T15:09:25.659+0000] {processor.py:153} INFO - Started process (PID=23131) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:09:25.660+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:09:25.661+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:09:25.661+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:09:26.379+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:09:26.378+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 10, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2022-12-13T15:09:26.380+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:09:26.403+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.747 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                [2022-12-13T15:35:11.394+0000] {processor.py:153} INFO - Started process (PID=90) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:35:11.398+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:35:11.400+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:35:11.399+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:41:50.407+0000] {processor.py:153} INFO - Started process (PID=139) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:41:50.554+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:41:50.556+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:41:50.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:42:23.640+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:42:23.623+0000] {timeout.py:68} ERROR - Process timed out, PID: 139
+[2022-12-13T15:43:06.142+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:42:23.643+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 5, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 26, in <module>
+    from google.cloud.bigquery import DEFAULT_RETRY, CopyJob, ExtractJob, LoadJob, QueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 26, in <module>
+    from google.cloud.bigquery_storage_v1 import reader
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/reader.py", line 30, in <module>
+    import pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 50, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/api.py", line 29, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/arrays/__init__.py", line 20, in <module>
+    from pandas.core.arrays.string_arrow import ArrowStringArray
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/arrays/string_arrow.py", line 65, in <module>
+    import pyarrow.compute as pc
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyarrow/compute.py", line 323, in <module>
+    _make_global_functions()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyarrow/compute.py", line 320, in _make_global_functions
+    g[cpp_name] = g[name] = _wrap_function(name, func)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyarrow/compute.py", line 295, in _wrap_function
+    return _decorate_compute_function(wrapper, name, func, options_class)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyarrow/compute.py", line 147, in _decorate_compute_function
+    """))
+  File "/usr/local/lib/python3.7/textwrap.py", line 431, in dedent
+    indents = _leading_whitespace_re.findall(text)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/test_noe_bash.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.5.0/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.5.0/best-practices.html#reducing-dag-complexity, PID: 139
+[2022-12-13T15:45:17.072+0000] {processor.py:153} INFO - Started process (PID=169) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:45:20.407+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:45:20.409+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:45:20.409+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:48:26.983+0000] {processor.py:153} INFO - Started process (PID=192) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:48:27.461+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:48:27.464+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:48:27.463+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:49:10.376+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:49:10.372+0000] {timeout.py:68} ERROR - Process timed out, PID: 192
+[2022-12-13T15:52:29.023+0000] {processor.py:153} INFO - Started process (PID=229) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:52:29.056+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:52:29.057+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:52:29.057+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:53:50.965+0000] {processor.py:153} INFO - Started process (PID=257) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:53:51.143+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:53:51.144+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:53:51.144+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:54:36.047+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:54:36.045+0000] {timeout.py:68} ERROR - Process timed out, PID: 257
+[2022-12-13T15:54:36.065+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:54:36.053+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 5, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 26, in <module>
+    from google.cloud.bigquery import DEFAULT_RETRY, CopyJob, ExtractJob, LoadJob, QueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 26, in <module>
+    from google.cloud.bigquery_storage_v1 import reader
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/reader.py", line 30, in <module>
+    import pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/__init__.py", line 23, in <module>
+    from pandas.compat.pyarrow import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/pyarrow.py", line 6, in <module>
+    import pyarrow as pa
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyarrow/__init__.py", line 65, in <module>
+    import pyarrow.lib as _lib
+  File "<frozen importlib._bootstrap>", line 416, in parent
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/test_noe_bash.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.5.0/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.5.0/best-practices.html#reducing-dag-complexity, PID: 257
+[2022-12-13T15:54:36.069+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:54:36.152+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 42.050 seconds
+[2022-12-13T15:56:55.977+0000] {processor.py:153} INFO - Started process (PID=273) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:57:00.311+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:57:00.313+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:57:00.312+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:57:44.835+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:57:44.833+0000] {timeout.py:68} ERROR - Process timed out, PID: 273
+[2022-12-13T15:57:44.843+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:57:44.836+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 5, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 26, in <module>
+    from google.cloud.bigquery import DEFAULT_RETRY, CopyJob, ExtractJob, LoadJob, QueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 26, in <module>
+    from google.cloud.bigquery_storage_v1 import reader
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/reader.py", line 30, in <module>
+    import pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/__init__.py", line 23, in <module>
+    from pandas.compat.pyarrow import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/pyarrow.py", line 6, in <module>
+    import pyarrow as pa
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyarrow/__init__.py", line 65, in <module>
+    import pyarrow.lib as _lib
+  File "<frozen importlib._bootstrap>", line 416, in parent
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/test_noe_bash.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.5.0/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.5.0/best-practices.html#reducing-dag-complexity, PID: 273
+[2022-12-13T15:57:44.846+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:57:45.493+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 49.156 seconds
+[2022-12-13T15:58:29.038+0000] {processor.py:153} INFO - Started process (PID=307) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:58:29.048+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:58:29.050+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:58:29.050+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:59:04.514+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:59:03.866+0000] {timeout.py:68} ERROR - Process timed out, PID: 307
+[2022-12-13T15:59:32.372+0000] {processor.py:153} INFO - Started process (PID=321) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T15:59:32.592+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T15:59:32.595+0000] {logging_mixin.py:137} INFO - [2022-12-13T15:59:32.594+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:00:09.392+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:00:09.390+0000] {timeout.py:68} ERROR - Process timed out, PID: 321
+[2022-12-13T16:00:09.398+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:00:09.393+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/test_noe_bash.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_noe_bash.py", line 5, in <module>
+    from datetime import datetime
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 26, in <module>
+    from google.cloud.bigquery import DEFAULT_RETRY, CopyJob, ExtractJob, LoadJob, QueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 26, in <module>
+    from google.cloud.bigquery_storage_v1 import reader
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/reader.py", line 30, in <module>
+    import pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/__init__.py", line 23, in <module>
+    from pandas.compat.pyarrow import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/pyarrow.py", line 6, in <module>
+    import pyarrow as pa
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyarrow/__init__.py", line 65, in <module>
+    import pyarrow.lib as _lib
+  File "<frozen importlib._bootstrap>", line 416, in parent
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/test_noe_bash.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.5.0/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.5.0/best-practices.html#reducing-dag-complexity, PID: 321
+[2022-12-13T16:00:09.620+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:00:09.816+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 37.231 seconds
+[2022-12-13T16:01:04.381+0000] {processor.py:153} INFO - Started process (PID=354) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:01:04.384+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:01:04.386+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:01:04.386+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:01:12.199+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:01:13.225+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:01:13.224+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:bus_pos_etl
+[2022-12-13T16:01:13.247+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:01:13.247+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:bus_pos_etl
+[2022-12-13T16:01:13.266+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:01:13.266+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:bus_pos_etl
+[2022-12-13T16:01:13.267+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:01:13.266+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:01:13.292+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:01:13.292+0000] {dag.py:2697} INFO - Creating ORM DAG for bus_pos_etl
+[2022-12-13T16:01:13.309+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:01:13.309+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:01:13.352+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 8.977 seconds
+[2022-12-13T16:01:44.225+0000] {processor.py:153} INFO - Started process (PID=419) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:01:44.226+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:01:44.228+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:01:44.227+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:01:44.926+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:01:44.950+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:01:44.949+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:01:44.975+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:01:44.975+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:01:44.998+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.777 seconds
+[2022-12-13T16:02:18.218+0000] {processor.py:153} INFO - Started process (PID=474) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:02:18.220+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:02:18.223+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:02:18.223+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:02:23.369+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:02:23.411+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:02:23.410+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:02:23.443+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:02:23.443+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:02:23.475+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 5.264 seconds
+[2022-12-13T16:02:55.812+0000] {processor.py:153} INFO - Started process (PID=531) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:02:55.919+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:02:55.921+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:02:55.920+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:02:57.317+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:02:57.348+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:02:57.348+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:02:57.395+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:02:57.395+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:02:57.432+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.646 seconds
+[2022-12-13T16:03:27.825+0000] {processor.py:153} INFO - Started process (PID=599) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:03:27.826+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:03:27.827+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:03:27.827+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:03:28.757+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:03:28.789+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:03:28.788+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:03:28.835+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:03:28.835+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:03:28.868+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.046 seconds
+[2022-12-13T16:03:59.178+0000] {processor.py:153} INFO - Started process (PID=663) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:03:59.179+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:03:59.180+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:03:59.180+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:03:59.813+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:03:59.844+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:03:59.843+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:03:59.877+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:03:59.877+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:03:59.912+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.737 seconds
+[2022-12-13T16:04:30.121+0000] {processor.py:153} INFO - Started process (PID=726) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:04:30.122+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:04:30.123+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:04:30.122+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:04:30.780+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:04:30.807+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:04:30.807+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:04:30.843+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:04:30.843+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:04:30.870+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.752 seconds
+[2022-12-13T16:05:01.050+0000] {processor.py:153} INFO - Started process (PID=789) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:05:01.056+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:05:01.057+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:05:01.057+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:05:02.277+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:05:02.302+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:05:02.302+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:05:02.334+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:05:02.334+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:05:02.362+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.316 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            [2022-12-13T16:09:53.038+0000] {processor.py:153} INFO - Started process (PID=65) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:09:53.040+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:09:53.042+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:09:53.042+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:09:55.625+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:09:55.700+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:09:55.699+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:09:55.771+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:09:55.771+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:09:55.862+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 2.828 seconds
+[2022-12-13T16:10:26.582+0000] {processor.py:153} INFO - Started process (PID=128) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:10:26.596+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:10:26.597+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:10:26.597+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:10:27.487+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:10:27.519+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:10:27.518+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:10:27.554+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:10:27.554+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:10:27.585+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.007 seconds
+[2022-12-13T16:10:57.844+0000] {processor.py:153} INFO - Started process (PID=192) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:10:57.845+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:10:57.847+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:10:57.847+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:11:01.722+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:11:01.794+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:11:01.793+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:11:01.837+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:11:01.837+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:11:01.873+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 4.034 seconds
+[2022-12-13T16:11:32.502+0000] {processor.py:153} INFO - Started process (PID=263) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:11:32.503+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:11:32.503+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:11:32.503+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:11:33.519+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:11:33.562+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:11:33.561+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:11:33.597+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:11:33.597+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:11:33.625+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.127 seconds
+[2022-12-13T16:12:04.439+0000] {processor.py:153} INFO - Started process (PID=326) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:12:04.441+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:12:04.443+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:12:04.443+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:12:05.332+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:12:05.360+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:12:05.360+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:12:05.389+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:12:05.389+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:12:05.423+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.990 seconds
+[2022-12-13T16:12:35.770+0000] {processor.py:153} INFO - Started process (PID=389) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:12:35.771+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:12:35.771+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:12:35.771+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:12:36.596+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:12:36.633+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:12:36.632+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:12:36.664+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:12:36.664+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:12:36.700+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.932 seconds
+[2022-12-13T16:13:07.075+0000] {processor.py:153} INFO - Started process (PID=453) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:13:07.076+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:13:07.077+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:13:07.077+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:13:07.802+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:13:07.850+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:13:07.849+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:13:07.887+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:13:07.887+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:13:07.919+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.847 seconds
+[2022-12-13T16:13:38.555+0000] {processor.py:153} INFO - Started process (PID=516) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:13:38.556+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:13:38.558+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:13:38.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:13:45.238+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:13:45.513+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:13:45.512+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:13:45.615+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:13:45.614+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:13:45.709+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 7.165 seconds
+[2022-12-13T16:14:16.336+0000] {processor.py:153} INFO - Started process (PID=586) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:14:16.340+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:14:16.342+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:14:16.342+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:14:18.468+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:14:18.510+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:14:18.510+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:14:18.542+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:14:18.542+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:14:18.570+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 2.251 seconds
+[2022-12-13T16:14:48.697+0000] {processor.py:153} INFO - Started process (PID=650) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:14:48.702+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:14:48.703+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:14:48.703+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:14:50.123+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:14:50.191+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:14:50.190+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:14:50.236+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:14:50.236+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:14:50.267+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.576 seconds
+[2022-12-13T16:15:20.387+0000] {processor.py:153} INFO - Started process (PID=713) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:15:20.389+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:15:20.390+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:15:20.390+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:15:23.015+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:15:23.073+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:15:23.072+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:15:23.116+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:15:23.115+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:15:23.161+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 2.779 seconds
+[2022-12-13T16:15:54.052+0000] {processor.py:153} INFO - Started process (PID=779) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:15:54.055+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:15:54.057+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:15:54.056+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:15:55.578+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:15:55.612+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:15:55.611+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:15:55.650+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:15:55.649+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:15:55.698+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.651 seconds
+[2022-12-13T16:16:25.975+0000] {processor.py:153} INFO - Started process (PID=842) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:16:25.976+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:16:25.977+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:16:25.977+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:16:28.641+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:16:28.767+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:16:28.762+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:16:28.891+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:16:28.889+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:16:28.973+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 3.003 seconds
+[2022-12-13T16:16:59.520+0000] {processor.py:153} INFO - Started process (PID=915) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:16:59.524+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:16:59.526+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:16:59.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:17:00.451+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:17:00.480+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:17:00.479+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:17:00.526+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:17:00.526+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:17:00.564+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.049 seconds
+[2022-12-13T16:17:30.727+0000] {processor.py:153} INFO - Started process (PID=981) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:17:30.728+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:17:30.729+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:17:30.728+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:17:31.591+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:17:31.620+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:17:31.619+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:17:31.648+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:17:31.647+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:17:31.681+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.959 seconds
+[2022-12-13T16:18:01.960+0000] {processor.py:153} INFO - Started process (PID=1044) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:18:01.962+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:18:01.963+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:18:01.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:18:02.884+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:18:02.918+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:18:02.918+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:18:02.954+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:18:02.954+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:18:02.994+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.037 seconds
+[2022-12-13T16:18:33.132+0000] {processor.py:153} INFO - Started process (PID=1111) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:18:33.134+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:18:33.135+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:18:33.135+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:18:34.084+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:18:34.116+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:18:34.115+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:18:34.157+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:18:34.157+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:18:34.195+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.067 seconds
+[2022-12-13T16:19:05.069+0000] {processor.py:153} INFO - Started process (PID=1178) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:19:05.071+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:19:05.071+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:19:05.071+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:19:06.159+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:19:06.198+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:19:06.197+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:19:06.250+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:19:06.250+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:19:06.290+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.226 seconds
+[2022-12-13T16:19:36.518+0000] {processor.py:153} INFO - Started process (PID=1243) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:19:36.519+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:19:36.520+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:19:36.519+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:19:37.266+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:19:37.309+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:19:37.308+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:19:37.340+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:19:37.340+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-12T00:00:00+00:00, run_after=2022-12-13T00:00:00+00:00
+[2022-12-13T16:19:37.360+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.844 seconds
+[2022-12-13T16:20:07.461+0000] {processor.py:153} INFO - Started process (PID=1310) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:20:07.463+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:20:07.464+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:20:07.464+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:20:08.144+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:20:08.170+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:20:08.169+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:20:08.198+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:20:08.197+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:20:08.227+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.770 seconds
+[2022-12-13T16:20:38.283+0000] {processor.py:153} INFO - Started process (PID=1376) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:20:38.284+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:20:38.284+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:20:38.284+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:20:39.066+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:20:39.093+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:20:39.093+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:20:39.124+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:20:39.123+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:20:39.156+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.878 seconds
+[2022-12-13T16:21:09.828+0000] {processor.py:153} INFO - Started process (PID=1443) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:21:09.840+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:21:09.841+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:21:09.840+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:21:10.987+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:21:11.023+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:21:11.022+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:21:11.087+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:21:11.086+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:21:11.119+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.295 seconds
+[2022-12-13T16:21:19.484+0000] {processor.py:153} INFO - Started process (PID=1470) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:21:19.485+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:21:19.488+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:21:19.487+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:21:20.502+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:21:20.564+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:21:20.563+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:21:20.588+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:21:20.588+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:21:20.626+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.149 seconds
+[2022-12-13T16:21:50.964+0000] {processor.py:153} INFO - Started process (PID=1533) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:21:50.966+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:21:50.967+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:21:50.967+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:21:51.652+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:21:51.676+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:21:51.676+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:21:51.705+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:21:51.705+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:21:51.734+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.773 seconds
+[2022-12-13T16:22:22.012+0000] {processor.py:153} INFO - Started process (PID=1596) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:22:22.013+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:22:22.014+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:22:22.013+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:22:22.608+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:22:22.631+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:22:22.630+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:22:22.659+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:22:22.659+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:22:22.697+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.688 seconds
+[2022-12-13T16:22:52.845+0000] {processor.py:153} INFO - Started process (PID=1659) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:22:52.857+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:22:52.858+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:22:52.858+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:22:53.427+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:22:53.451+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:22:53.450+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:22:53.483+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:22:53.483+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:22:53.530+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.687 seconds
+[2022-12-13T16:23:24.057+0000] {processor.py:153} INFO - Started process (PID=1722) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:23:24.058+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:23:24.059+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:23:24.059+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:23:24.662+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:23:24.691+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:23:24.691+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:23:24.724+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:23:24.724+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:23:24.758+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.703 seconds
+[2022-12-13T16:23:55.347+0000] {processor.py:153} INFO - Started process (PID=1786) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:23:55.350+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:23:55.351+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:23:55.351+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:23:55.999+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:23:56.089+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:23:56.088+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:23:56.121+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:23:56.121+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:23:56.144+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.800 seconds
+[2022-12-13T16:24:26.614+0000] {processor.py:153} INFO - Started process (PID=1849) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:24:26.626+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:24:26.627+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:24:26.627+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:24:27.259+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:24:27.283+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:24:27.282+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:24:27.309+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:24:27.309+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:24:27.334+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.722 seconds
+[2022-12-13T16:24:58.102+0000] {processor.py:153} INFO - Started process (PID=1920) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:24:58.103+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:24:58.104+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:24:58.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:24:58.662+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:24:58.684+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:24:58.684+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:24:58.714+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:24:58.714+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:24:58.740+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.640 seconds
+[2022-12-13T16:25:28.968+0000] {processor.py:153} INFO - Started process (PID=1984) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:25:28.970+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:25:28.972+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:25:28.972+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:25:29.710+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:25:29.731+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:25:29.731+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:25:29.759+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:25:29.759+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:25:29.782+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.826 seconds
+[2022-12-13T16:26:00.724+0000] {processor.py:153} INFO - Started process (PID=2047) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:26:00.725+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:26:00.727+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:26:00.727+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:26:01.330+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:26:01.355+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:26:01.354+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:26:01.381+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:26:01.381+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:26:01.403+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.683 seconds
+[2022-12-13T16:26:31.949+0000] {processor.py:153} INFO - Started process (PID=2112) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:26:31.951+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:26:31.951+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:26:31.951+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:26:32.457+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:26:32.477+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:26:32.477+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:26:32.501+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:26:32.501+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:26:32.524+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.577 seconds
+[2022-12-13T16:27:02.912+0000] {processor.py:153} INFO - Started process (PID=2173) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:27:02.913+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:27:02.914+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:27:02.914+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:27:03.479+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:27:03.514+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:27:03.514+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:27:03.543+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:27:03.543+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:27:03.565+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.656 seconds
+[2022-12-13T16:27:34.272+0000] {processor.py:153} INFO - Started process (PID=2236) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:27:34.274+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:27:34.275+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:27:34.275+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:27:34.896+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:27:34.918+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:27:34.917+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:27:34.947+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:27:34.947+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:27:34.968+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.698 seconds
+[2022-12-13T16:28:05.888+0000] {processor.py:153} INFO - Started process (PID=2299) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:28:05.889+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:28:05.891+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:28:05.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:28:06.469+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:28:06.495+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:28:06.494+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:28:06.524+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:28:06.523+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:28:06.547+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.662 seconds
+[2022-12-13T16:28:36.994+0000] {processor.py:153} INFO - Started process (PID=2362) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:28:37.006+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:28:37.007+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:28:37.006+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:28:37.595+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:28:37.618+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:28:37.617+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:28:37.644+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:28:37.644+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:28:37.679+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.688 seconds
+[2022-12-13T16:29:08.251+0000] {processor.py:153} INFO - Started process (PID=2425) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:29:08.263+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:29:08.264+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:29:08.264+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:29:08.898+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:29:08.921+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:29:08.920+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:29:08.948+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:29:08.947+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:29:08.971+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.724 seconds
+[2022-12-13T16:29:39.861+0000] {processor.py:153} INFO - Started process (PID=2488) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:29:39.863+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:29:39.863+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:29:39.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:29:40.564+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:29:40.592+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:29:40.591+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:29:40.628+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:29:40.628+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:29:40.658+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.800 seconds
+[2022-12-13T16:30:11.454+0000] {processor.py:153} INFO - Started process (PID=2551) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:30:11.456+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:30:11.458+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:30:11.457+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:30:12.355+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:30:12.390+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:30:12.389+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:30:12.436+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:30:12.436+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:30:12.473+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.024 seconds
+[2022-12-13T16:30:43.219+0000] {processor.py:153} INFO - Started process (PID=2621) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:30:43.220+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:30:43.220+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:30:43.220+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:30:44.045+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:30:44.090+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:30:44.089+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:30:44.126+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:30:44.125+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:30:44.176+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.961 seconds
+[2022-12-13T16:31:14.311+0000] {processor.py:153} INFO - Started process (PID=2684) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:31:14.316+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:31:14.319+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:31:14.318+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:31:15.900+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:31:15.979+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:31:15.978+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:31:16.022+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:31:16.022+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:31:16.060+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.758 seconds
+[2022-12-13T16:31:47.086+0000] {processor.py:153} INFO - Started process (PID=2749) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:31:47.089+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:31:47.091+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:31:47.091+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:31:50.043+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:31:50.128+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:31:50.127+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:31:50.178+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:31:50.178+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:31:50.207+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 3.131 seconds
+[2022-12-13T16:32:20.504+0000] {processor.py:153} INFO - Started process (PID=2810) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:32:20.507+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:32:20.509+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:32:20.509+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:32:21.661+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:32:21.696+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:32:21.695+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:32:21.729+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:32:21.728+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:32:21.764+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.269 seconds
+[2022-12-13T16:32:52.184+0000] {processor.py:153} INFO - Started process (PID=2873) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:32:52.185+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:32:52.186+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:32:52.186+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:32:52.944+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:32:52.969+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:32:52.968+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:32:53.001+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:32:53.001+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:32:53.028+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.847 seconds
+[2022-12-13T16:33:23.568+0000] {processor.py:153} INFO - Started process (PID=2937) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:33:23.582+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:33:23.582+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:33:23.582+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:33:24.285+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:33:24.316+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:33:24.315+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:33:24.350+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:33:24.350+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:33:24.387+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.822 seconds
+[2022-12-13T16:33:54.774+0000] {processor.py:153} INFO - Started process (PID=3001) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:33:54.776+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:33:54.777+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:33:54.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:33:55.380+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:33:55.420+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:33:55.419+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:33:55.448+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:33:55.448+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:33:55.474+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.703 seconds
+[2022-12-13T16:34:25.806+0000] {processor.py:153} INFO - Started process (PID=3064) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:34:25.807+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:34:25.808+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:34:25.808+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:34:26.636+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:34:26.664+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:34:26.664+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:34:26.697+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:34:26.697+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:34:26.725+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.923 seconds
+[2022-12-13T16:34:57.057+0000] {processor.py:153} INFO - Started process (PID=3129) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:34:57.059+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:34:57.060+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:34:57.060+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:34:57.877+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:34:57.907+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:34:57.907+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:34:57.947+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:34:57.947+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:34:57.982+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.927 seconds
+[2022-12-13T16:35:28.156+0000] {processor.py:153} INFO - Started process (PID=3202) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:35:28.157+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:35:28.157+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:35:28.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:35:28.985+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:35:29.014+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:35:29.013+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:35:29.049+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:35:29.049+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:35:29.081+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.928 seconds
+[2022-12-13T16:35:59.229+0000] {processor.py:153} INFO - Started process (PID=3267) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:35:59.233+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:35:59.236+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:35:59.235+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:36:00.208+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:36:00.240+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:36:00.239+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:36:00.269+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:36:00.269+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:36:00.311+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.091 seconds
+[2022-12-13T16:36:30.686+0000] {processor.py:153} INFO - Started process (PID=3333) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:36:30.690+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:36:30.691+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:36:30.691+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:36:31.355+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:36:31.378+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:36:31.378+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:36:31.407+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:36:31.407+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:36:31.434+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.756 seconds
+[2022-12-13T16:37:01.730+0000] {processor.py:153} INFO - Started process (PID=3399) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:37:01.732+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:37:01.733+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:37:01.733+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:37:02.474+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:37:02.521+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:37:02.520+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:37:02.559+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:37:02.558+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:37:02.591+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.864 seconds
+[2022-12-13T16:37:32.866+0000] {processor.py:153} INFO - Started process (PID=3464) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:37:32.868+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:37:32.869+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:37:32.869+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:37:33.486+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:37:33.510+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:37:33.510+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:37:33.541+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:37:33.540+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:37:33.568+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.704 seconds
+[2022-12-13T16:38:04.045+0000] {processor.py:153} INFO - Started process (PID=3529) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:38:04.047+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:38:04.048+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:38:04.047+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:38:04.708+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:38:04.733+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:38:04.733+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:38:04.761+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:38:04.761+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:38:04.788+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.746 seconds
+[2022-12-13T16:38:34.914+0000] {processor.py:153} INFO - Started process (PID=3595) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:38:34.914+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:38:34.915+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:38:34.915+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:38:35.496+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:38:35.521+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:38:35.520+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:38:35.551+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:38:35.550+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:38:35.587+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.676 seconds
+[2022-12-13T16:39:06.007+0000] {processor.py:153} INFO - Started process (PID=3660) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:39:06.008+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:39:06.009+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:39:06.009+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:39:06.717+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:39:06.741+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:39:06.740+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:39:06.775+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:39:06.775+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:39:06.799+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.796 seconds
+[2022-12-13T16:39:37.188+0000] {processor.py:153} INFO - Started process (PID=3725) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:39:37.190+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:39:37.193+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:39:37.193+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:39:37.995+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:39:38.024+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:39:38.023+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:39:38.053+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:39:38.053+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:39:38.081+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.902 seconds
+[2022-12-13T16:40:08.633+0000] {processor.py:153} INFO - Started process (PID=3790) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:40:08.634+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:40:08.635+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:40:08.635+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:40:09.602+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:40:09.648+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:40:09.647+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:40:09.682+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:40:09.682+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:40:09.712+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 1.083 seconds
+[2022-12-13T16:40:21.994+0000] {processor.py:153} INFO - Started process (PID=3840) to work on /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:40:21.994+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/test_noe_bash.py for tasks to queue
+[2022-12-13T16:40:21.995+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:40:21.995+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:40:22.771+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pos_etl']) retrieved from /opt/airflow/dags/test_noe_bash.py
+[2022-12-13T16:40:22.796+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:40:22.795+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-13T16:40:22.825+0000] {logging_mixin.py:137} INFO - [2022-12-13T16:40:22.825+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pos_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-13T16:40:22.854+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/test_noe_bash.py took 0.863 seconds

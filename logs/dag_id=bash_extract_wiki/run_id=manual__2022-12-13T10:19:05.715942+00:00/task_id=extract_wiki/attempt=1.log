@@ -1,0 +1,33 @@
+[2022-12-13T10:19:07.942+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: bash_extract_wiki.extract_wiki manual__2022-12-13T10:19:05.715942+00:00 [queued]>
+[2022-12-13T10:19:07.959+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: bash_extract_wiki.extract_wiki manual__2022-12-13T10:19:05.715942+00:00 [queued]>
+[2022-12-13T10:19:07.959+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13T10:19:07.959+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-13T10:19:07.960+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13T10:19:07.990+0000] {taskinstance.py:1304} INFO - Executing <Task(BashOperator): extract_wiki> on 2022-12-13 10:19:05.715942+00:00
+[2022-12-13T10:19:08.001+0000] {standard_task_runner.py:55} INFO - Started process 958 to run task
+[2022-12-13T10:19:08.005+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'bash_extract_wiki', 'extract_wiki', 'manual__2022-12-13T10:19:05.715942+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/bash_test.py', '--cfg-path', '/tmp/tmppx50kqvj']
+[2022-12-13T10:19:08.005+0000] {standard_task_runner.py:83} INFO - Job 4: Subtask extract_wiki
+[2022-12-13T10:19:08.106+0000] {task_command.py:389} INFO - Running <TaskInstance: bash_extract_wiki.extract_wiki manual__2022-12-13T10:19:05.715942+00:00 [running]> on host ff6f332d28b5
+[2022-12-13T10:19:08.235+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bash_extract_wiki
+AIRFLOW_CTX_TASK_ID=extract_wiki
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-13T10:19:05.715942+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-13T10:19:05.715942+00:00
+[2022-12-13T10:19:08.239+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-13T10:19:08.241+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python /opt/***/dags/wiki_extract_json.py']
+[2022-12-13T10:19:08.267+0000] {subprocess.py:86} INFO - Output:
+[2022-12-13T10:19:15.496+0000] {subprocess.py:93} INFO - json en cours d extraction ...
+[2022-12-13T10:19:15.497+0000] {subprocess.py:93} INFO - {"project":"en.wikipedia","article":"Neymar","granularity":"daily","timestamp":"2022121200","access":"all-access","agent":"all-agents","views":94909}
+[2022-12-13T10:19:15.497+0000] {subprocess.py:93} INFO - {"project":"en.wikipedia","article":"Marquinhos","granularity":"daily","timestamp":"2022121200","access":"all-access","agent":"all-agents","views":4564}
+[2022-12-13T10:19:15.497+0000] {subprocess.py:93} INFO - {"project":"en.wikipedia","article":"Kimpembe","granularity":"daily","timestamp":"2022121200","access":"all-access","agent":"all-agents","views":6}
+[2022-12-13T10:19:15.497+0000] {subprocess.py:93} INFO - json extrait ! CSV en cours de creation ...
+[2022-12-13T10:19:15.498+0000] {subprocess.py:93} INFO - csv de créé!
+[2022-12-13T10:19:15.601+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2022-12-13T10:19:15.638+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=bash_extract_wiki, task_id=extract_wiki, execution_date=20221213T101905, start_date=20221213T101907, end_date=20221213T101915
+[2022-12-13T10:19:15.806+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-13T10:19:15.825+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check
