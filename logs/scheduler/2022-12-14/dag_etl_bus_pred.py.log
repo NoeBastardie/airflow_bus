@@ -1,0 +1,172 @@
+[2022-12-14T11:15:30.148+0000] {processor.py:153} INFO - Started process (PID=15994) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:15:30.148+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:15:30.149+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:15:30.149+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:15:30.728+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:15:31.209+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:15:31.208+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:bus_pred_etl
+[2022-12-14T11:15:31.220+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:15:31.220+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:bus_pred_etl
+[2022-12-14T11:15:31.230+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:15:31.230+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:bus_pred_etl
+[2022-12-14T11:15:31.231+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:15:31.231+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:15:31.246+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:15:31.245+0000] {dag.py:2697} INFO - Creating ORM DAG for bus_pred_etl
+[2022-12-14T11:15:31.258+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:15:31.258+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-14T11:15:31.289+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 1.144 seconds
+[2022-12-14T11:16:01.789+0000] {processor.py:153} INFO - Started process (PID=16234) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:16:01.790+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:16:01.791+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:16:01.791+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:16:02.327+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:16:03.122+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:16:03.122+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:16:03.164+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:16:03.164+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-14T11:16:03.199+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 1.416 seconds
+[2022-12-14T11:16:06.979+0000] {processor.py:153} INFO - Started process (PID=16278) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:16:06.981+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:16:06.983+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:16:06.982+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:16:07.700+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:16:07.762+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:16:07.762+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:16:07.789+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:16:07.789+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-14T11:16:07.817+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.844 seconds
+[2022-12-14T11:16:38.249+0000] {processor.py:153} INFO - Started process (PID=16545) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:16:38.250+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:16:38.251+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:16:38.251+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:16:38.884+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:16:38.943+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:16:38.942+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:16:38.979+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:16:38.979+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-13T00:00:00+00:00, run_after=2022-12-14T00:00:00+00:00
+[2022-12-14T11:16:39.026+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.780 seconds
+[2022-12-14T11:17:09.160+0000] {processor.py:153} INFO - Started process (PID=16812) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:17:09.161+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:17:09.162+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:17:09.162+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:17:09.965+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:17:09.988+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:17:09.988+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:17:10.015+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:17:10.015+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:17:10.040+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.882 seconds
+[2022-12-14T11:17:40.611+0000] {processor.py:153} INFO - Started process (PID=17059) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:17:40.613+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:17:40.614+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:17:40.614+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:17:41.189+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:17:42.660+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:17:42.659+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:17:42.695+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:17:42.695+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:17:42.726+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 2.118 seconds
+[2022-12-14T11:18:14.609+0000] {processor.py:153} INFO - Started process (PID=17306) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:18:14.611+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:18:14.613+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:18:14.612+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:18:15.182+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:18:15.202+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:18:15.202+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:18:15.228+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:18:15.228+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:18:15.259+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.653 seconds
+[2022-12-14T11:18:45.442+0000] {processor.py:153} INFO - Started process (PID=17563) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:18:45.443+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:18:45.443+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:18:45.443+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:18:45.994+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:18:46.015+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:18:46.015+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:18:46.040+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:18:46.039+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:18:46.063+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.624 seconds
+[2022-12-14T11:19:16.279+0000] {processor.py:153} INFO - Started process (PID=17793) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:19:16.283+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:19:16.286+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:19:16.285+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:19:16.974+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:19:16.997+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:19:16.996+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:19:17.022+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:19:17.022+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:19:17.056+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.786 seconds
+[2022-12-14T11:19:47.455+0000] {processor.py:153} INFO - Started process (PID=18040) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:19:47.457+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:19:47.459+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:19:47.458+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:19:49.103+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:19:49.125+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:19:49.124+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:19:49.148+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:19:49.148+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:19:49.177+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 1.729 seconds
+[2022-12-14T11:20:19.593+0000] {processor.py:153} INFO - Started process (PID=18286) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:20:19.605+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:20:19.606+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:20:19.606+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:20:20.240+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:20:20.269+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:20:20.268+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:20:20.297+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:20:20.296+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:20:20.325+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.735 seconds
+[2022-12-14T11:20:50.768+0000] {processor.py:153} INFO - Started process (PID=18532) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:20:50.769+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:20:50.770+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:20:50.770+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:20:51.352+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:20:51.373+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:20:51.373+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:20:51.399+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:20:51.399+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:20:51.419+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.654 seconds
+[2022-12-14T11:21:21.546+0000] {processor.py:153} INFO - Started process (PID=18788) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:21:21.547+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:21:21.548+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:21:21.547+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:21:22.219+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:21:23.123+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:21:23.123+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:21:23.164+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:21:23.164+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:21:23.245+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 1.703 seconds
+[2022-12-14T11:21:54.834+0000] {processor.py:153} INFO - Started process (PID=19040) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:21:54.845+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:21:54.846+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:21:54.846+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:21:55.410+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:21:55.437+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:21:55.436+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:21:55.465+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:21:55.465+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:21:55.492+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.661 seconds
+[2022-12-14T11:22:26.050+0000] {processor.py:153} INFO - Started process (PID=19287) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:22:26.052+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:22:26.052+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:22:26.052+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:22:26.583+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:22:26.611+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:22:26.611+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:22:26.638+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:22:26.638+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:22:26.660+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.612 seconds
+[2022-12-14T11:22:57.553+0000] {processor.py:153} INFO - Started process (PID=19534) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:22:57.555+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:22:57.557+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:22:57.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:22:58.097+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:22:58.119+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:22:58.118+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:22:58.146+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:22:58.146+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:22:58.170+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.620 seconds
+[2022-12-14T11:23:29.406+0000] {processor.py:153} INFO - Started process (PID=19774) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:23:29.408+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:23:29.410+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:23:29.409+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:23:29.939+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:23:29.961+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:23:29.960+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:23:29.983+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:23:29.983+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:23:30.003+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.600 seconds
+[2022-12-14T11:24:00.094+0000] {processor.py:153} INFO - Started process (PID=20021) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:24:00.095+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:24:00.095+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:24:00.095+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:24:00.623+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:24:00.644+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:24:00.643+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:24:00.668+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:24:00.668+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:24:00.692+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.600 seconds
+[2022-12-14T11:24:31.132+0000] {processor.py:153} INFO - Started process (PID=20268) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:24:31.135+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:24:31.136+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:24:31.136+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:24:31.644+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:24:31.672+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:24:31.671+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:24:31.700+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:24:31.700+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:24:31.722+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.592 seconds
+[2022-12-14T11:25:01.797+0000] {processor.py:153} INFO - Started process (PID=20515) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:25:01.798+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:25:01.798+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:25:01.798+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:25:02.341+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:25:02.364+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:25:02.363+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:25:02.394+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:25:02.394+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:25:02.433+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.638 seconds
+[2022-12-14T11:25:32.735+0000] {processor.py:153} INFO - Started process (PID=20755) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:25:32.737+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:25:32.738+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:25:32.738+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:25:33.374+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:25:33.398+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:25:33.397+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:25:33.429+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:25:33.429+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:25:33.454+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.722 seconds
+[2022-12-14T11:26:05.480+0000] {processor.py:153} INFO - Started process (PID=21009) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:26:05.481+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:26:05.482+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:26:05.481+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:26:06.018+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:26:06.041+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:26:06.040+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:26:06.069+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:26:06.069+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:26:06.097+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.620 seconds
+[2022-12-14T11:26:37.181+0000] {processor.py:153} INFO - Started process (PID=21247) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:26:37.183+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:26:37.184+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:26:37.184+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:26:37.857+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:26:37.886+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:26:37.886+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:26:37.927+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:26:37.927+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:26:37.970+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.793 seconds
+[2022-12-14T11:27:08.851+0000] {processor.py:153} INFO - Started process (PID=21514) to work on /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:27:08.852+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_etl_bus_pred.py for tasks to queue
+[2022-12-14T11:27:08.852+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:27:08.852+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:27:09.371+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bus_pred_etl']) retrieved from /opt/airflow/dags/dag_etl_bus_pred.py
+[2022-12-14T11:27:09.391+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:27:09.391+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-14T11:27:09.418+0000] {logging_mixin.py:137} INFO - [2022-12-14T11:27:09.418+0000] {dag.py:3427} INFO - Setting next_dagrun for bus_pred_etl to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T11:27:09.450+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_etl_bus_pred.py took 0.602 seconds

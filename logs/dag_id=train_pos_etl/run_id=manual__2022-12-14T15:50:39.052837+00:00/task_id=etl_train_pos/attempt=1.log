@@ -1,0 +1,30 @@
+[2022-12-14T15:50:41.863+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: train_pos_etl.etl_train_pos manual__2022-12-14T15:50:39.052837+00:00 [queued]>
+[2022-12-14T15:50:41.895+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: train_pos_etl.etl_train_pos manual__2022-12-14T15:50:39.052837+00:00 [queued]>
+[2022-12-14T15:50:41.896+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-14T15:50:41.896+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-14T15:50:41.897+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-14T15:50:41.940+0000] {taskinstance.py:1304} INFO - Executing <Task(BashOperator): etl_train_pos> on 2022-12-14 15:50:39.052837+00:00
+[2022-12-14T15:50:41.966+0000] {standard_task_runner.py:55} INFO - Started process 12667 to run task
+[2022-12-14T15:50:41.985+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'train_pos_etl', 'etl_train_pos', 'manual__2022-12-14T15:50:39.052837+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_train_pos.py', '--cfg-path', '/tmp/tmpy226c50w']
+[2022-12-14T15:50:41.992+0000] {standard_task_runner.py:83} INFO - Job 84: Subtask etl_train_pos
+[2022-12-14T15:50:42.362+0000] {task_command.py:389} INFO - Running <TaskInstance: train_pos_etl.etl_train_pos manual__2022-12-14T15:50:39.052837+00:00 [running]> on host 1f859f359fd5
+[2022-12-14T15:50:42.753+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=noe
+AIRFLOW_CTX_DAG_ID=train_pos_etl
+AIRFLOW_CTX_TASK_ID=etl_train_pos
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-14T15:50:39.052837+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-14T15:50:39.052837+00:00
+[2022-12-14T15:50:42.763+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-14T15:50:42.766+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python /opt/***/dags/etl/etl_train_pos.py']
+[2022-12-14T15:50:42.804+0000] {subprocess.py:86} INFO - Output:
+[2022-12-14T15:50:51.805+0000] {subprocess.py:93} INFO - train_pos.csv création du blob en cours
+[2022-12-14T15:50:53.096+0000] {subprocess.py:93} INFO - blob créé
+[2022-12-14T15:50:53.097+0000] {subprocess.py:93} INFO - upload du csv vers le blob en cours
+[2022-12-14T15:50:53.099+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2022-12-14T15:50:53.761+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=train_pos_etl, task_id=etl_train_pos, execution_date=20221214T155039, start_date=20221214T155041, end_date=20221214T155053
+[2022-12-14T15:50:54.713+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-14T15:50:54.768+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

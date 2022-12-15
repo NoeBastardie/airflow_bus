@@ -1,0 +1,57 @@
+[2022-12-14T11:53:35.295+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: train_pred_etl.etl_train_pred scheduled__2022-12-13T00:00:00+00:00 [queued]>
+[2022-12-14T11:53:35.311+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: train_pred_etl.etl_train_pred scheduled__2022-12-13T00:00:00+00:00 [queued]>
+[2022-12-14T11:53:35.311+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-14T11:53:35.311+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-14T11:53:35.311+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-14T11:53:35.326+0000] {taskinstance.py:1304} INFO - Executing <Task(BashOperator): etl_train_pred> on 2022-12-13 00:00:00+00:00
+[2022-12-14T11:53:35.333+0000] {standard_task_runner.py:55} INFO - Started process 1770 to run task
+[2022-12-14T11:53:35.336+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'train_pred_etl', 'etl_train_pred', 'scheduled__2022-12-13T00:00:00+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_train_pred.py', '--cfg-path', '/tmp/tmppz0myja3']
+[2022-12-14T11:53:35.338+0000] {standard_task_runner.py:83} INFO - Job 56: Subtask etl_train_pred
+[2022-12-14T11:53:35.399+0000] {task_command.py:389} INFO - Running <TaskInstance: train_pred_etl.etl_train_pred scheduled__2022-12-13T00:00:00+00:00 [running]> on host 1f859f359fd5
+[2022-12-14T11:53:35.475+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=noe
+AIRFLOW_CTX_DAG_ID=train_pred_etl
+AIRFLOW_CTX_TASK_ID=etl_train_pred
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-13T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-13T00:00:00+00:00
+[2022-12-14T11:53:35.477+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-14T11:53:35.478+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python /opt/***/dags/etl/etl_train_pred.py']
+[2022-12-14T11:53:35.491+0000] {subprocess.py:86} INFO - Output:
+[2022-12-14T11:53:48.227+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-14T11:53:48.229+0000] {subprocess.py:93} INFO -   File "/opt/***/dags/etl/etl_train_pred.py", line 45, in <module>
+[2022-12-14T11:53:48.229+0000] {subprocess.py:93} INFO -     load_to_gcs(extract_API())
+[2022-12-14T11:53:48.229+0000] {subprocess.py:93} INFO -   File "/opt/***/dags/etl/etl_train_pred.py", line 23, in extract_API
+[2022-12-14T11:53:48.229+0000] {subprocess.py:93} INFO -     conn.request("GET", "/StationPrediction.svc/json/GetPrediction/{All}?%s" % params, "{body}", headers)
+[2022-12-14T11:53:48.229+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.7/http/client.py", line 1281, in request
+[2022-12-14T11:53:48.229+0000] {subprocess.py:93} INFO -     self._send_request(method, url, body, headers, encode_chunked)
+[2022-12-14T11:53:48.229+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.7/http/client.py", line 1327, in _send_request
+[2022-12-14T11:53:48.229+0000] {subprocess.py:93} INFO -     self.endheaders(body, encode_chunked=encode_chunked)
+[2022-12-14T11:53:48.229+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.7/http/client.py", line 1276, in endheaders
+[2022-12-14T11:53:48.230+0000] {subprocess.py:93} INFO -     self._send_output(message_body, encode_chunked=encode_chunked)
+[2022-12-14T11:53:48.230+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.7/http/client.py", line 1036, in _send_output
+[2022-12-14T11:53:48.230+0000] {subprocess.py:93} INFO -     self.send(msg)
+[2022-12-14T11:53:48.230+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.7/http/client.py", line 976, in send
+[2022-12-14T11:53:48.230+0000] {subprocess.py:93} INFO -     self.connect()
+[2022-12-14T11:53:48.230+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.7/http/client.py", line 1443, in connect
+[2022-12-14T11:53:48.230+0000] {subprocess.py:93} INFO -     super().connect()
+[2022-12-14T11:53:48.230+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.7/http/client.py", line 948, in connect
+[2022-12-14T11:53:48.230+0000] {subprocess.py:93} INFO -     (self.host,self.port), self.timeout, self.source_address)
+[2022-12-14T11:53:48.230+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.7/socket.py", line 707, in create_connection
+[2022-12-14T11:53:48.230+0000] {subprocess.py:93} INFO -     for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+[2022-12-14T11:53:48.230+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.7/socket.py", line 752, in getaddrinfo
+[2022-12-14T11:53:48.230+0000] {subprocess.py:93} INFO -     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+[2022-12-14T11:53:48.231+0000] {subprocess.py:93} INFO - socket.gaierror: [Errno -3] Temporary failure in name resolution
+[2022-12-14T11:53:48.720+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2022-12-14T11:53:48.760+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2022-12-14T11:53:48.778+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=train_pred_etl, task_id=etl_train_pred, execution_date=20221213T000000, start_date=20221214T115335, end_date=20221214T115348
+[2022-12-14T11:53:48.832+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 56 for task etl_train_pred (Bash command failed. The command returned a non-zero exit code 1.; 1770)
+[2022-12-14T11:53:48.947+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-12-14T11:53:48.998+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

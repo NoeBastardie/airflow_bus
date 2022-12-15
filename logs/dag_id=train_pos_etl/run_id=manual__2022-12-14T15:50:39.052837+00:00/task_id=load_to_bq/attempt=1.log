@@ -1,0 +1,29 @@
+[2022-12-14T15:50:58.998+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: train_pos_etl.load_to_bq manual__2022-12-14T15:50:39.052837+00:00 [queued]>
+[2022-12-14T15:50:59.019+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: train_pos_etl.load_to_bq manual__2022-12-14T15:50:39.052837+00:00 [queued]>
+[2022-12-14T15:50:59.019+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-14T15:50:59.020+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-14T15:50:59.020+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-14T15:50:59.053+0000] {taskinstance.py:1304} INFO - Executing <Task(GCSToBigQueryOperator): load_to_bq> on 2022-12-14 15:50:39.052837+00:00
+[2022-12-14T15:50:59.098+0000] {standard_task_runner.py:55} INFO - Started process 12918 to run task
+[2022-12-14T15:50:59.119+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'train_pos_etl', 'load_to_bq', 'manual__2022-12-14T15:50:39.052837+00:00', '--job-id', '89', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_train_pos.py', '--cfg-path', '/tmp/tmpggf6btfe']
+[2022-12-14T15:50:59.124+0000] {standard_task_runner.py:83} INFO - Job 89: Subtask load_to_bq
+[2022-12-14T15:50:59.224+0000] {task_command.py:389} INFO - Running <TaskInstance: train_pos_etl.load_to_bq manual__2022-12-14T15:50:39.052837+00:00 [running]> on host 1f859f359fd5
+[2022-12-14T15:50:59.348+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=noe
+AIRFLOW_CTX_DAG_ID=train_pos_etl
+AIRFLOW_CTX_TASK_ID=load_to_bq
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-14T15:50:39.052837+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-14T15:50:39.052837+00:00
+[2022-12-14T15:50:59.365+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-12-14T15:50:59.384+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-12-14T15:50:59.385+0000] {gcs_to_bigquery.py:367} INFO - Using existing BigQuery table for storing data...
+[2022-12-14T15:50:59.399+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-12-14T15:51:12.791+0000] {gcs_to_bigquery.py:397} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'midyear-cursor-371415', 'datasetId': 'train_dataset', 'tableId': 'staging__train_pos'}, 'destinationTableProperties': {'description': None, 'labels': None}, 'sourceFormat': 'CSV', 'skipLeadingRows': 1, 'sourceUris': ['gs://etl-***-train-pos-bucket/train_pos.csv'], 'writeDisposition': 'WRITE_APPEND', 'ignoreUnknownValues': False, 'allowQuotedNewlines': False, 'encoding': 'UTF-8'}}
+[2022-12-14T15:51:12.793+0000] {bigquery.py:1539} INFO - Inserting job ***_train_pos_etl_load_to_bq_2022_12_14T15_50_39_052837_00_00_461987ae5e5fa44ca05e31de6d736172
+[2022-12-14T15:51:18.921+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-12-14T15:51:18.957+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=train_pos_etl, task_id=load_to_bq, execution_date=20221214T155039, start_date=20221214T155058, end_date=20221214T155118
+[2022-12-14T15:51:19.856+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-14T15:51:19.892+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -29,7 +29,7 @@ with DAG(
     field_delimiter =',',
     destination_project_dataset_table='midyear-cursor-371415.bus_dataset.staging__incident',
     skip_leading_rows=1,
-    write_disposition='WRITE_APPEND',
+    write_disposition='WRITE_TRUNCATE',
     )
 
     t1 >> t2 

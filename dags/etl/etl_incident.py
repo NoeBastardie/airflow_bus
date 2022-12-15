@@ -39,6 +39,13 @@ def routes_affected(row):
 def transform(df):
     df['DateUpdated'] = pd.to_datetime(df['DateUpdated'])
     df['number_of_routes_affected'] = df['RoutesAffected'].apply(routes_affected)
+    df.explode('RoutesAffected').reset_index(drop=True)	
+
+    def clean(elem):
+        return elem[0]
+        
+    df['RoutesAffected'] = df['RoutesAffected'].apply(clean)
+    df['DateTime'] = datetime.now()
     return df
 
 
