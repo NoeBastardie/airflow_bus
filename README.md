@@ -1,7 +1,12 @@
 # airflow_gcp_dbt_flask_project
 Project made by Noe Bastardie in december 2022.
 
+/!\ 
+
 This readme describe the general approach and all the steps of the project --> This repo only contains the code of the step 1 (Airflow) !
+
+
+/!\ 
 
 
 # Goal :
